@@ -1,0 +1,75 @@
+.img{
+    height: 27px;
+}
+body{
+    font-family: "merivaregular";
+}
+.pic1{
+    padding: 0;
+}
+.left{
+    position: relative; 
+    background: rgb(47, 193, 222);
+    height: 800px;
+}
+.rotate{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    transform: translateX(-50%);
+    width: 190px;
+    z-index: 0;
+}
+.para{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    color: #812529;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    letter-spacing: 3px;
+    z-index: 1;
+}
+.right{
+    position: relative;
+    font-family: Meriva, sans-serif;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: left;
+    padding: 120px;
+}
+.footer1{
+    padding: 0;
+}
+.col-4{
+    font-family: "merivaregular";
+    text-align: left;
+}
+.footer{
+    padding: 60px;
+}
+.logos{
+    font-size: 30px;
+}
+
+ @media (max-width: 990px) {
+
+    .toggleNav {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+} 
+
+@media (max-width: 560px) {
+    .rotate{
+        width: 25%; 
+    }
+} 
+@media (max-width: 381px) {
+    .para{
+        font-size: 40px; 
+    }
+}
